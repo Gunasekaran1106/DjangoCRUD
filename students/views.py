@@ -49,3 +49,5 @@ def delete(request, id):
         pass  # Handle the case where the student does not exist
     return redirect('/show')  # Redirect back to the list of students after deletion
 
+def redirect_root(request):
+    return redirect('/student/')

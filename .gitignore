@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.sqlite
+db.sqlite3
+
+# Django migrations
+**/migrations/*.pyc
+**/migrations/__pycache__/
+**/migrations/*.py
+
+# VS Code settings
+.vscode/
+
+# PyCharm
+.idea/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Git
+*.orig
+
+# Local environment
+.env
+.env.*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.cache
+
+# mypy
+.mypy_cache/
+
+# coverage.py
+htmlcov/
+.coverage
+.coverage.*
+
+# Pylint
+pylint-report.txt
+pylint-output.txt
+
+# pipenv
+Pipfile.lock
+
+# Others
+*.bak
+*.swp
+*.tmp
