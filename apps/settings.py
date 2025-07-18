@@ -131,7 +131,7 @@ import os
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=os.environ.get('DATABASE_URL')
+        default=os.environ.get('postgresql://django_crud_db_3v3d_user:jMaKecbHvBwhdAdULnXhOIwoC79B8MAm@dpg-d1t8jrbe5dus73bo5sdg-a/django_crud_db_3v3d')
     )
 }
 
