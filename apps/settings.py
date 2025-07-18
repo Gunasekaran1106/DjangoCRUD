@@ -91,7 +91,7 @@ DATABASES = {
 
 
  
-
+'''
 import pymysql
 pymysql.install_as_MySQLdb()
 
@@ -105,7 +105,7 @@ DATABASES = {
          'PORT':'3306',
      }
  } 
-
+'''
  
 
 
@@ -125,6 +125,16 @@ DATABASES = {
  } 
  
  ''' 
+
+import dj_database_url
+import os
+
+DATABASES = {
+    'default': dj_database_url.config(
+        default=os.environ.get('DATABASE_URL')
+    )
+}
+
 
 
 # Password validation
