@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-*h8!t^c!$3jy6!p$@av0y6)t+=&wm1deljc-dyt$!9()y3_)nc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangocrud-yits.onrender.com']
+ALLOWED_HOSTS = ['local host','127.0.0.1','djangocrud-yits.onrender.com']
 
 
 # Application definition
@@ -94,7 +94,7 @@ DATABASES = {
 
 
  
-'''
+
 import pymysql
 pymysql.install_as_MySQLdb()
 
@@ -108,7 +108,7 @@ DATABASES = {
          'PORT':'3306',
      }
  } 
-'''
+
  
 
 
@@ -127,7 +127,7 @@ DATABASES = {
      }
  } 
  
- ''' 
+ 
 
 import dj_database_url
 import os
@@ -137,7 +137,7 @@ DATABASES = {
         default=os.environ.get('postgresql://django_crud_db_3v3d_user:jMaKecbHvBwhdAdULnXhOIwoC79B8MAm@dpg-d1t8jrbe5dus73bo5sdg-a/django_crud_db_3v3d')
     )
 }
-
+ '''
 
 
 # Password validation
