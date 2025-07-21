@@ -93,9 +93,7 @@ DATABASES = {
 #mysql connection
 #pip install pymysql (or) pip install mysqlclient
 
-
- '''
-
+'''
 import pymysql
 pymysql.install_as_MySQLdb()
 
@@ -109,8 +107,7 @@ DATABASES = {
          'PORT':'3306',
      }
  } 
-
-  '''
+'''
 
 
  # postgresql
@@ -127,8 +124,6 @@ DATABASES = {
          'PORT':'5432',
      }
  } 
- 
- 
  '''
 
 import dj_database_url
