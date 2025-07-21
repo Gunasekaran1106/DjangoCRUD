@@ -110,13 +110,13 @@ DATABASES = {
      }
  } 
 
- 
+  '''
 
 
  # postgresql
  # pip install psycopg2-binary
 
-
+ '''
 DATABASES = {
      'default': {
          'ENGINE': 'django.db.backends.postgresql',
